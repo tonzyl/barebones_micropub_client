@@ -12,5 +12,5 @@ The default post status is draft, but you could turn that into a variable or set
 
 The post information is submitted to the endpoint in JSON, using file_get_contents 
 
-It requires getting a bearer token which is not handled in this script. Get one manually for your endpoint from https://www.jvt.me/posts/2021/03/06/tokens-pls/
+It requires getting a bearer token which is not handled in this script. Get one manually for your endpoint through the back-end of your CMS (e.g. WordPress with the IndieWeb micropub plugin, or from https://www.jvt.me/posts/2021/03/06/tokens-pls/
 
