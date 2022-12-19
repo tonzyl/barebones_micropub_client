@@ -5,7 +5,8 @@
 /* title should be in $posttitel, content in $contentspul, the array of categories/tags in $cats */
 /* the default post status is draft, but you could turn that into a variable or set to publish */
 /* the post information is submitted to the endpoint in JSON, using file_get_contents */
-/* it requires getting a bearer token which is not handled in this script. get one manually for your endpoint from https://www.jvt.me/posts/2021/03/06/tokens-pls/ */
+/* it requires getting a bearer token which is not handled in this script. get one manually for your endpoint */
+/* in the back-end of your CMS (e.g. WordPress with the IndieWeb micropub plugin or from https://www.jvt.me/posts/2021/03/06/tokens-pls/ */
 
 $bearertoken = "yourownsecrettoken";
 ini_set('user_agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:95.0) Gecko/20100101 Firefox/95.0');
