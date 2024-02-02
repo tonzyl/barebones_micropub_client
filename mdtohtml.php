@@ -70,7 +70,7 @@ $contentspulm = $regelrest[$filecount];
 $Parsedown = new Parsedown();
 $contentspul = $Parsedown->text($contentspulm);
 
-include 'jsonclassic.php'; /* this is the php script that only does the micropub posting*/
+include 'jsonfilegetcontents.php'; /* this is the php script that only does the micropub posting*/
 }
     $filecount=$filecount+1;
 }
